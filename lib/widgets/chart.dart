@@ -18,7 +18,7 @@ class Chart extends StatelessWidget {
       );
       double totalSum = 0.0;
 
-      //calculating total amount of money spend in week day
+      //calculating total amount of money spend in week days
       for (var i = 0; i < recentTransactions.length; i++) {
         if (recentTransactions[i].date.day == weekDay.day &&
             recentTransactions[i].date.month == weekDay.month &&
